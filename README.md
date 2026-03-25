@@ -1,4 +1,4 @@
-# Java Projects ☕
+# Java Projects [![Java](https://skillicons.dev/icons?i=java&theme=light)](https://skillicons.dev)
 
 Bem-vindo ao meu repositório de estudos em **Java**! 
 
