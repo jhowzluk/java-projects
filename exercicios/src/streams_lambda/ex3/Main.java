@@ -20,5 +20,12 @@ public class Main {
                 .toList();
 
         System.out.println(produtosFiltrados);
+
+        double somaProduto = produtos.stream()
+                .filter(p -> p.getCategoria().equals("Móveis"))
+                .mapToDouble(Produto::getPreco)
+                .sum();
+
+        System.out.println(somaProduto);
     }
 }
